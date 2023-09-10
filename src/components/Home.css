@@ -1,0 +1,16 @@
+.bHome {
+  display: flex;
+}
+.home {
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+}
+
+@media (max-width: 550px) {
+  .home {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

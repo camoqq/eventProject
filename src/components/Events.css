@@ -1,0 +1,11 @@
+.events {
+  background-color: rgb(67, 64, 95);
+  color: orange;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 10px;
+  height: 52vh;
+  border-radius: 5px;
+}
